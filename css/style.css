@@ -1,0 +1,620 @@
+@font-face {
+  font-family: 'gotham-bold';
+  src: url("fonts/gotham/Gotham-Medium.eot");
+  src: url("fonts/gotham/Gotham-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/gotham/Gotham-Medium.woff") format("woff"), url("fonts/gotham/Gotham-Medium.ttf") format("truetype");
+  font-weight: bold;
+  font-style: bold;
+}
+/* line 10, ../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 12, ../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+#layout {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -62px;
+}
+/* line 18, ../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+#layout #layout_footer {
+  height: 62px;
+}
+
+/* line 20, ../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+#footer {
+  clear: both;
+  position: relative;
+  height: 62px;
+}
+
+/* line 19, ../../src/stylesheets/style.scss */
+html, body {
+  font-family: 'gotham-bold';
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  color: black;
+}
+
+/* line 26, ../../src/stylesheets/style.scss */
+body {
+  /*@include background(image-url("bg.jpg") center center no-repeat #000707 );
+  @include background-size(cover);*/
+}
+
+/*navbar*/
+/* line 33, ../../src/stylesheets/style.scss */
+.navbar {
+  margin-bottom: 0px;
+}
+
+/* line 37, ../../src/stylesheets/style.scss */
+.navbar-default {
+  background-color: #434343;
+  border-color: #434343;
+}
+
+/* line 42, ../../src/stylesheets/style.scss */
+.navbar-default .navbar-nav > li > a {
+  font-family: "gotham-bold";
+  font-size: 11px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*dropdow for navbar*/
+/* line 51, ../../src/stylesheets/style.scss */
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  font-family: "gotham-bold";
+  color: #fff;
+  font-size: 11px;
+  text-align: center;
+}
+
+/* line 57, ../../src/stylesheets/style.scss */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+/* line 63, ../../src/stylesheets/style.scss */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+/* line 70, ../../src/stylesheets/style.scss */
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+/* line 74, ../../src/stylesheets/style.scss */
+div.theRowPage {
+  margin: 20px 0;
+}
+
+/*header*/
+/* line 80, ../../src/stylesheets/style.scss */
+header.headerTop {
+  height: 250px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+/* line 85, ../../src/stylesheets/style.scss */
+header.headerTop img {
+  width: 177px;
+  height: 75px;
+  margin-top: 100px;
+}
+
+/* line 94, ../../src/stylesheets/style.scss */
+div.firstRowCenter {
+  font-family: 'gotham-bold';
+  text-shadow: 2px 2px rgba(33, 33, 33, 0.2);
+  font-size: 13px;
+  height: 300px;
+  text-align: center;
+  padding-top: 79px;
+  color: white;
+  background: url("../images/firstRowCenter.jpg") 52% top no-repeat #d9d9d9;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+/* line 107, ../../src/stylesheets/style.scss */
+div.firstRowCenter p.firstRowCenterPara {
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 110, ../../src/stylesheets/style.scss */
+div.firstRowCenter p.firstRowCenterPara span {
+  font-size: 16px;
+}
+/* line 115, ../../src/stylesheets/style.scss */
+div.firstRowCenter .btn-savoir-plus {
+  background: url("../images/btn-savoir-plus-small.png") center center no-repeat;
+  display: block;
+  width: 230px;
+  height: 35px;
+  margin: 15px auto 0 auto;
+}
+
+/*container*/
+/* line 129, ../../src/stylesheets/style.scss */
+div.content div.secondRow {
+  margin: 40px 0;
+  border-bottom: 10px solid #efefef;
+  overflow: auto;
+}
+/* line 133, ../../src/stylesheets/style.scss */
+div.content div.secondRow div.box {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+/* line 137, ../../src/stylesheets/style.scss */
+div.content div.secondRow div.box .btn-box {
+  background: url("../images/btn-box-small.png") center center no-repeat;
+  display: block;
+  width: 280px;
+  height: 38px;
+  margin: 0 auto;
+}
+/* line 144, ../../src/stylesheets/style.scss */
+div.content div.secondRow div.box img {
+  width: 100%;
+  height: auto;
+}
+/* line 148, ../../src/stylesheets/style.scss */
+div.content div.secondRow div.box h2.box1-title {
+  font-family: 'gotham-bold';
+  font-size: 13px;
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+/* line 164, ../../src/stylesheets/style.scss */
+div.content div.thirdRow h1 {
+  color: #e1213e;
+  font-size: 16px;
+  text-align: center;
+}
+/* line 170, ../../src/stylesheets/style.scss */
+div.content div.thirdRow div.thirdRowInfo {
+  background: #efefef;
+  color: #000;
+  height: 150px;
+  padding-top: 27px;
+  text-align: left;
+  font-size: 15px;
+  font-family: 'gotham-bold';
+}
+/* line 178, ../../src/stylesheets/style.scss */
+div.content div.thirdRow div.thirdRowInfo ul {
+  text-align: center;
+}
+/* line 180, ../../src/stylesheets/style.scss */
+div.content div.thirdRow div.thirdRowInfo ul li {
+  margin: 7px 0;
+  line-height: 0;
+}
+/* line 183, ../../src/stylesheets/style.scss */
+div.content div.thirdRow div.thirdRowInfo ul li img.adress {
+  margin-right: 5px;
+  vertical-align: top;
+}
+/* line 187, ../../src/stylesheets/style.scss */
+div.content div.thirdRow div.thirdRowInfo ul li img {
+  margin-right: 5px;
+}
+/* line 195, ../../src/stylesheets/style.scss */
+div.content div.thirdRow div.thirdRowLeft {
+  overflow: hidden;
+  margin: 23px 0;
+}
+/* line 198, ../../src/stylesheets/style.scss */
+div.content div.thirdRow div.thirdRowLeft div.thirdRowLeftTop {
+  background: url("../images/reims-bg.jpg") center center no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+  font-size: 23px;
+  font-family: 'gotham-bold';
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+/* line 214, ../../src/stylesheets/style.scss */
+div.content div.thirdRow div.thirdRowRight {
+  overflow: hidden;
+  margin: 23px 0;
+}
+/* line 217, ../../src/stylesheets/style.scss */
+div.content div.thirdRow div.thirdRowRight div.thirdRowRightTop {
+  background: url("../images/epernay-bg.jpg") center center no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+  font-size: 23px;
+  font-family: 'gotham-bold';
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* line 245, ../../src/stylesheets/style.scss */
+footer {
+  font-family: verdana;
+  font-size: 10px;
+  color: #000;
+  height: auto !important;
+}
+/* line 252, ../../src/stylesheets/style.scss */
+footer .footer-logo {
+  padding: 10px 0;
+}
+/* line 256, ../../src/stylesheets/style.scss */
+footer .pull-left {
+  float: none !important;
+}
+
+@media (min-width: 425px) {
+  /*navbar*/
+  /* line 267, ../../src/stylesheets/style.scss */
+  .navbar-default .navbar-nav > li > a {
+    font-size: 14px;
+  }
+
+  /*dropdow for navbar*/
+  /* line 272, ../../src/stylesheets/style.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    font-size: 13px;
+  }
+
+  /*header*/
+  /* line 276, ../../src/stylesheets/style.scss */
+  header.headerTop {
+    height: 350px;
+  }
+  /* line 278, ../../src/stylesheets/style.scss */
+  header.headerTop img {
+    width: 254px;
+    height: 108px;
+    margin-top: 130px;
+  }
+
+  /* line 287, ../../src/stylesheets/style.scss */
+  div.firstRowCenter p.firstRowCenterPara {
+    width: 90%;
+  }
+  /* line 289, ../../src/stylesheets/style.scss */
+  div.firstRowCenter p.firstRowCenterPara span {
+    font-size: 16px;
+  }
+  /* line 294, ../../src/stylesheets/style.scss */
+  div.firstRowCenter .btn-savoir-plus {
+    background: url("../images/btn-savoir-plus.png") center center no-repeat;
+    width: 287px;
+    height: 44px;
+    margin: 25px auto 0 auto;
+  }
+
+  /*container*/
+  /* line 307, ../../src/stylesheets/style.scss */
+  div.content div.secondRow div.box {
+    margin-bottom: 40px;
+  }
+  /* line 309, ../../src/stylesheets/style.scss */
+  div.content div.secondRow div.box .btn-box {
+    background: url("../images/btn-box.png") center center no-repeat;
+    width: 100%;
+    max-width: 400px;
+    height: 54px;
+  }
+  /* line 315, ../../src/stylesheets/style.scss */
+  div.content div.secondRow div.box img {
+    width: 100%;
+    height: auto;
+    max-height: 242px;
+  }
+  /* line 320, ../../src/stylesheets/style.scss */
+  div.content div.secondRow div.box h2.box1-title {
+    font-size: 16px;
+    text-decoration: uppercase;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  /* line 332, ../../src/stylesheets/style.scss */
+  div.content div.thirdRow div.thirdRowInfo {
+    height: 170px;
+    padding-top: 18px;
+    font-size: 15px;
+    width: 100%;
+  }
+  /* line 338, ../../src/stylesheets/style.scss */
+  div.content div.thirdRow div.thirdRowInfo ul li {
+    display: block;
+    margin: 20px 0;
+    line-height: 0;
+  }
+  /* line 342, ../../src/stylesheets/style.scss */
+  div.content div.thirdRow div.thirdRowInfo ul li img.adress {
+    margin-right: 5px;
+    vertical-align: top;
+  }
+  /* line 346, ../../src/stylesheets/style.scss */
+  div.content div.thirdRow div.thirdRowInfo ul li img {
+    margin-right: 5px;
+  }
+  /* line 353, ../../src/stylesheets/style.scss */
+  div.content div.thirdRow div.thirdRowLeft {
+    margin: 23px 0;
+  }
+  /* line 355, ../../src/stylesheets/style.scss */
+  div.content div.thirdRow div.thirdRowLeft div.thirdRowLeftTop {
+    height: 170px;
+    padding-top: 70px;
+    margin: 12px 0;
+  }
+  /* line 363, ../../src/stylesheets/style.scss */
+  div.content div.thirdRow div.thirdRowRight {
+    margin: 23px 0;
+  }
+  /* line 365, ../../src/stylesheets/style.scss */
+  div.content div.thirdRow div.thirdRowRight div.thirdRowRightTop {
+    height: 170px;
+    padding-top: 70px;
+    margin: 12px 0;
+  }
+}
+/*
+*Tablet
+*/
+@media (min-width: 768px) {
+  /* line 394, ../../src/stylesheets/style.scss */
+  .navbar {
+    border-radius: 0px;
+  }
+
+  /* line 398, ../../src/stylesheets/style.scss */
+  .navbar-default .navbar-nav > li > a {
+    font-size: 12px;
+    padding: 10px 7px;
+  }
+
+  /* line 403, ../../src/stylesheets/style.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    font-size: 14px;
+    color: #434343;
+  }
+
+  /* line 410, ../../src/stylesheets/style.scss */
+  div.firstRowCenter {
+    text-shadow: none;
+    font-size: 16px;
+    height: 400px;
+    padding-top: 100px;
+    background: url("../images/firstRowCenterWritting.jpg") 52% top no-repeat #d9d9d9;
+    padding-right: 30%;
+  }
+  /* line 417, ../../src/stylesheets/style.scss */
+  div.firstRowCenter p.firstRowCenterPara {
+    max-width: 450px;
+    font-size: 14px;
+  }
+  /* line 422, ../../src/stylesheets/style.scss */
+  div.firstRowCenter p.firstRowCenterPara span {
+    font-size: 17px;
+  }
+  /* line 427, ../../src/stylesheets/style.scss */
+  div.firstRowCenter .btn-savoir-plus {
+    background: url("../images/btn-savoir-plus-small.png") center center no-repeat;
+    display: block;
+    width: 230px;
+    height: 35px;
+  }
+
+  /*container*/
+  /* line 441, ../../src/stylesheets/style.scss */
+  div.content div.secondRow div.box {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  /* line 445, ../../src/stylesheets/style.scss */
+  div.content div.secondRow div.box .btn-box {
+    background: url("../images/btn-box-small.png") center center no-repeat;
+    width: 100%;
+    max-width: 280px;
+    height: 38px;
+  }
+  /* line 451, ../../src/stylesheets/style.scss */
+  div.content div.secondRow div.box img {
+    width: 100%;
+    height: auto;
+    max-height: 242px;
+  }
+  /* line 456, ../../src/stylesheets/style.scss */
+  div.content div.secondRow div.box h2.box1-title {
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  /* line 467, ../../src/stylesheets/style.scss */
+  div.content div.thirdRow h1 {
+    font-size: 18px;
+  }
+  /* line 474, ../../src/stylesheets/style.scss */
+  div.content div.thirdRow div.thirdRowInfo ul li img.img-tel1 {
+    margin-left: -69px;
+  }
+  /* line 477, ../../src/stylesheets/style.scss */
+  div.content div.thirdRow div.thirdRowInfo ul li img.img-tel2 {
+    margin-left: -28px;
+  }
+}
+/*
+*laptop medium
+*/
+@media (min-width: 991px) {
+  /* line 501, ../../src/stylesheets/style.scss */
+  .navbar-default .navbar-nav > li > a {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  /* line 506, ../../src/stylesheets/style.scss */
+  div.firstRowCenter {
+    padding-top: 120px;
+  }
+  /* line 508, ../../src/stylesheets/style.scss */
+  div.firstRowCenter p.firstRowCenterPara {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  /* line 512, ../../src/stylesheets/style.scss */
+  div.firstRowCenter p.firstRowCenterPara span {
+    font-size: 20px;
+  }
+  /* line 517, ../../src/stylesheets/style.scss */
+  div.firstRowCenter .btn-savoir-plus {
+    background: url("../images/btn-savoir-plus.png") center center no-repeat;
+    width: 287px;
+    height: 44px;
+    margin: 15px auto 0 auto;
+  }
+}
+/*
+*laptop medium
+*/
+@media (min-width: 1199px) {
+  /* line 533, ../../src/stylesheets/style.scss */
+  .navbar-default .navbar-nav > li > a {
+    font-size: 16px;
+  }
+
+  /*dropdow for navbar*/
+  /* line 538, ../../src/stylesheets/style.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    font-size: 14px;
+  }
+
+  /*header*/
+  /* line 544, ../../src/stylesheets/style.scss */
+  header.headerTop {
+    height: 450px;
+  }
+  /* line 546, ../../src/stylesheets/style.scss */
+  header.headerTop img {
+    width: 508px;
+    height: 216px;
+    margin-top: 140px;
+  }
+
+  /* line 554, ../../src/stylesheets/style.scss */
+  div.firstRowCenter {
+    height: 579px;
+    padding-top: 200px;
+    background: url("../images/firstRowCenterWritting.jpg") 47% top no-repeat #d9d9d9;
+  }
+  /* line 558, ../../src/stylesheets/style.scss */
+  div.firstRowCenter p.firstRowCenterPara {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  /* line 562, ../../src/stylesheets/style.scss */
+  div.firstRowCenter p.firstRowCenterPara span {
+    font-size: 16px;
+  }
+  /* line 567, ../../src/stylesheets/style.scss */
+  div.firstRowCenter .btn-savoir-plus {
+    background: url("../images/btn-savoir-plus.png") center center no-repeat;
+    display: block;
+    width: 287px;
+    height: 44px;
+    margin: 40px auto 0 auto;
+  }
+
+  /*container*/
+  /* line 583, ../../src/stylesheets/style.scss */
+  div.content div.secondRow div.box .btn-box {
+    background: url("../images/btn-box.png") center center no-repeat;
+    width: 100%;
+    max-width: 400px;
+    height: 54px;
+  }
+  /* line 589, ../../src/stylesheets/style.scss */
+  div.content div.secondRow div.box img {
+    width: 100%;
+    height: auto;
+  }
+  /* line 593, ../../src/stylesheets/style.scss */
+  div.content div.secondRow div.box h2.box1-title {
+    font-size: 16px;
+  }
+  /* line 601, ../../src/stylesheets/style.scss */
+  div.content div.thirdRow h1 {
+    font-size: 24.5px;
+  }
+  /* line 604, ../../src/stylesheets/style.scss */
+  div.content div.thirdRow div.thirdRowInfo {
+    height: 197px;
+    padding-top: 32px;
+    text-align: left;
+    font-size: 16px;
+  }
+  /* line 611, ../../src/stylesheets/style.scss */
+  div.content div.thirdRow div.thirdRowInfo ul li img.adress {
+    margin-right: 15px;
+  }
+  /* line 617, ../../src/stylesheets/style.scss */
+  div.content div.thirdRow div.thirdRowInfo ul li img.img-tel1 {
+    margin-left: -44px;
+    margin-right: 15px;
+  }
+  /* line 621, ../../src/stylesheets/style.scss */
+  div.content div.thirdRow div.thirdRowInfo ul li img.img-tel2 {
+    margin-left: -3px;
+    margin-right: 15px;
+  }
+  /* line 626, ../../src/stylesheets/style.scss */
+  div.content div.thirdRow div.thirdRowInfo ul li.li-tel1 {
+    font-size: 20.5px;
+  }
+  /* line 634, ../../src/stylesheets/style.scss */
+  div.content div.thirdRow div.thirdRowLeft div.thirdRowLeftTop {
+    height: 197px;
+    padding-top: 90px;
+  }
+  /* line 642, ../../src/stylesheets/style.scss */
+  div.content div.thirdRow div.thirdRowRight div.thirdRowRightTop {
+    height: 197px;
+    padding-top: 90px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 664, ../../src/stylesheets/style.scss */
+  .container {
+    width: 1200px;
+  }
+}
